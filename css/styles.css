@@ -158,3 +158,42 @@
         display: none !important;
     }
 }
+
+
+
+
+
+
+
+
+
+@media (min-width: 769px) {
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 20px 60px;
+        box-sizing: border-box;
+
+        background: rgba(255, 255, 255, 0.6); /* transparência igual ao mobile */
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+        z-index: 9990; /* abaixo do mobile menu, acima de tudo */
+    }
+
+    /* empurra o conteúdo da página para baixo,
+       para não ficar escondido atrás da navbar fixa */
+    body {
+        padding-top: 0 !important;
+    }
+}

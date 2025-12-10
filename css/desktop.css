@@ -37,6 +37,7 @@
 }
 
 .hero {
+    margin-top: 73px;
     display: flex;
     width: 100%;
     min-height: 80vh;
@@ -141,7 +142,7 @@
 .testemunhos {
     background-color: #f7f7f7;
       padding: 40px 0;
-  height: 790;
+   min-height: 60vh;
  display: flex;
     flex-direction: column;
     justify-content: center;
@@ -198,10 +199,11 @@
 }
 
 .sec-pacotes {
+
     text-align: center;
     background: #ffffff;
     padding: 40px 0;
-     height: 790;
+     min-height: 60vh;
       display: flex;
     flex-direction: column;
     justify-content: center;
@@ -288,7 +290,7 @@
     position: relative;
     width: 100%;
     padding: 40px 0;
-    height: 790px; 
+    height: 700px;
     background: #f7f7f7;
     overflow: hidden;
 }
@@ -1064,6 +1066,7 @@
 
 
 .portfolio {
+   
     text-align: center;
     padding: 60px 0;
     background-color: #f7f7f7;
