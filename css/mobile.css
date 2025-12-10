@@ -197,137 +197,106 @@
 
 
 
-    .sec-formulario {
-        margin-top: 45px;
-    background: #f3f3f3;  
-}
+ .sec-formulario {
+    margin-top: 40px;
+        background: #f7f7f7;
+        padding: 40px 0 0;
+    }
 
-
-
-     .topo-form img {
+    /* 1) esconder a imagem do topo no mobile */
+    .topo-form img {
         display: none;
     }
 
-   
+    /* libertar o texto (já não precisa de posição absoluta) */
+    .topo-form {
+        position: static;
+        height: auto;
+    }
+
     .topo-texto {
         position: static;
-        transform: none;
-        padding: 25px 15px;
-        color: #000;
+        max-width: 90%;
+        margin: 0 auto 30px;   /* centro + espaço em baixo */
+        padding: 0 5px;
         text-align: center;
     }
 
     .topo-texto h2 {
-        font-size: 24px;
+        font-size: 20px;
         margin-bottom: 8px;
     }
 
     .topo-texto p {
-        font-size: 17px;
-        line-height: 1.4;
+        font-size: 12px;
+        line-height: 1.5;
     }
 
-    
+    /* 2) formulário: largura certinha e alinhado */
     .form-container {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        width: 90%;
-        max-width: 450px;
-        margin: 20px auto;
+        max-width: 90%;
+        margin: 0 auto 40px;
+        display: block;
     }
 
     .campo {
         width: 100%;
+        margin-bottom: 18px;
     }
 
     .campo label {
-        font-size: 16px;
+        display: block;
+        font-size: 14px;
         margin-bottom: 6px;
     }
 
     .campo input {
         width: 100%;
-        height: 42px;
-        padding: 10px;
-        font-size: 16px;
+        padding: 15px;
+        box-sizing: border-box;
     }
 
-    
     .btn-enviar-wrapper {
         text-align: center;
-        margin-top: 10px;
+        margin-top: 20px;
     }
 
     .btn-enviar {
-            border: none;
         width: 70%;
+        height: 45px;
         max-width: 260px;
-        padding: 14px 0;
-        background: #ddd;
-        border-radius: 4px;
-        font-size: 16px;
+            border: 0cm;
     }
 
-  
+    /* 3) bloco branco dos contactos colado aos lados e sem deformar */
     .contactos-wrapper {
-        background-color: white;
-          width: 100%;              
-    margin: 0; 
-       align-items: center;
-        margin: 40px auto;
-        display: flex;
-        flex-direction: column;
-        gap: 18px;
+        background: #ffffff;
+        padding: 35px 20px 40px;
+        margin: 0;              /* tira qualquer margem lateral/vertical extra */
     }
 
-   .contactos {
-    width: 95%;              
-    max-width: 600px;        
-    margin-top: 20px;
-   }
-
-    
-    .contacto-esq {
-        text-align:center;
-        margin-bottom: 20px;
-    }
-
-    .contacto-esq p {
-        font-size: 17px;
-        line-height: 1.4;
-    }
-
-   
-    .linha-vertical {
-        width: 100%;
-        height: 1px;
-        background: #000;
-        display: block;
-        margin: 10px 0;
-    }
-
-    
-    .contacto-dir {
+    .contactos {
+        max-width: 90%;
+        margin: 0 auto;
         text-align: center;
     }
 
+    .linha-vertical {
+        width: 80%;
+        height: 1px;
+        background: #000;
+        margin: 25px auto;
+    }
+
+    .contacto-esq p,
     .contacto-dir p {
-        font-size: 15px;
-        line-height: 1.4;
-        margin-bottom: 5px;
+        font-size: 12px;
+        line-height: 1.6;
     }
 
-   
     .icons {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
+        text-align: center;
         margin-top: 10px;
-    }
-
-    .icons i {
-        font-size: 20px;
     }
 
 
