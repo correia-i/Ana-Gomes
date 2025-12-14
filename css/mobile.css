@@ -124,7 +124,6 @@
     font-weight: 600;
     letter-spacing: 1px;
     padding: 0 20px;
-    
 }
 
 /* ======= CARROSSEL ======= */
@@ -133,14 +132,14 @@
     display: flex;
     overflow-x: auto;                 /* rolagem horizontal */
     scroll-snap-type: x mandatory;    /* snap correto */
-    gap: 40px;
+    gap: 20px;
    padding:40px;
 }
 
 /* Cada slide */
 .card {
-    flex: 0 0 85%;                     /* largura ideal */
-    max-width: 85%;
+    flex: 0 0 85%;                  /* largura ideal */
+    max-width: 100%;
     background: #ffffff;
     border: 1px solid #ccc;
     padding: 20px;
@@ -174,7 +173,7 @@
 }
 
 .card-name {
-    font-size: 14pxrem;
+    font-size: 14px;
     color: #000;
 }
 
@@ -267,6 +266,155 @@
 }
 
     
+
+
+
+
+
+
+
+ .faq-section {
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  background-color: #f7f7f7;
+}
+
+/* IMAGEM */
+.faq-image {
+  position: relative;          /* remove absolute */
+  width: 160px;
+  margin-bottom: 30px;
+}
+
+.faq-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* CONTEÚDO */
+.faq-content {
+margin-left: 20px;
+margin-right: 20px;
+  position: relative;          /* remove absolute */
+  transform: none;             /* remove translate */
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* TÍTULO */
+.faq-title {
+  font-size: 26px;
+  line-height: 1.3;
+  margin-bottom: 30px;
+}
+
+/* CAIXAS */
+.faq-box {
+  width: 100%;
+  height: 52px;
+  border: 1px solid #000;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 18px;
+  box-sizing: border-box;
+}
+
+/* ÍCONE + */
+.faq-plus {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+
+
+
+
+
+
+.sec-contactos-inicial {
+    margin-top: 40px;
+        background: #ffffff;
+        padding: 40px 0 0;
+    }
+
+
+    .contactos-title {
+        font-size: 26px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+   
+
+    /* 2) formulário: largura certinha e alinhado */
+    .form-container {
+        max-width: 90%;
+        margin: 0 auto 40px;
+        display: block;
+    }
+
+    .campo {
+        width: 100%;
+        margin-bottom: 18xpx;
+    }
+
+    .campo label {
+        display: block;
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+
+    .campo input {
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+
+    .btn-enviar-wrapper {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .btn-enviar {
+        width: 70%;
+        height: 45px;
+        max-width: 260px;
+            border: 0cm;
+    }
+
+     .contactos-wrapper {
+        margin: 0px; /* tira qualquer margem lateral/vertical extra */
+    }
+
+    .contactos {
+        
+        max-width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .linha-vertical {
+        width: 80%;
+        height: 1px;
+        background: #000;
+        margin: 25px auto;
+    }
+
+    .contacto-esq p,
+    .contacto-dir p {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+    .icons {
+        text-align: center;
+        margin-top: 10px;
+    }
 
 
 

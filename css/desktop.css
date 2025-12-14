@@ -353,6 +353,7 @@
 
 .faq-image img {
     width: 100%;
+    max-width: 85%;
     height: 100%;
     object-fit: cover;
     object-position: left top; 
@@ -398,6 +399,17 @@
     font-size: 24px;
     font-weight: 500;
 }
+
+
+
+
+.sec-contactos-inicial {
+    display: none;
+}
+
+
+
+
 
 
 .sec-final {
