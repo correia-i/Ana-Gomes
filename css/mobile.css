@@ -281,7 +281,9 @@
   height: auto;
   overflow: hidden;
   background-color: #f7f7f7;
+  height: ;
 }
+
 
 /* IMAGEM */
 .faq-image {
@@ -346,7 +348,7 @@ padding: 40px 40px;
     .contactos-title {
         margin-top: 50px;
         font-size: 26px;
-        margin-bottom: 30px;
+        margin-bottom: 0px;
         text-align: center;
     }
 
