@@ -281,7 +281,6 @@
   height: auto;
   overflow: hidden;
   background-color: #f7f7f7;
-  height: ;
 }
 
 
@@ -889,7 +888,7 @@ text-align: center;
         display: flex;
         flex-direction: column;  
         width: 90%;
-        max-width: 500px;
+        max-width: 400px;
         margin: 0 auto;
         border: 1px solid #ccc;
     }
@@ -935,6 +934,7 @@ text-align: center;
         font-size: 14px;
         margin-bottom: 20px;
         order: 3;
+        text-decoration: none;
     }
 
 
