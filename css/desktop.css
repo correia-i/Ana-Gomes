@@ -1,3 +1,7 @@
+/* ESTILOS DA VERSÃO DESKTOP */
+
+/* BARRA DE NAVEGAÇÃO */
+
 .topo {
   display: flex;
   justify-content: space-between;
@@ -76,6 +80,9 @@
 }
 
 
+
+/* HERO */
+
 .hero {
     margin-top: 70px;
     display: flex;
@@ -118,7 +125,7 @@
 
 
 
-
+/* FOTOS EM DESTAQUE */
 .destaque-section {
     background: #ffffff;
     padding: 80px 0;
@@ -176,12 +183,13 @@
 }
 
 
-
+/* PARA SLIDER DOS TESTEMUNHOS MOBILE NÃO APARECER NESTA VERSÃO */
 .slider-controls {
     display:none;
 }
 
 
+/* TESTEMUNHOS */
 .testemunhos {
     background-color: #f7f7f7;
       padding: 40px 0;
@@ -245,7 +253,7 @@
 
 
 
-
+/* SECÇÃO PACOTES E PREÇOS */
 .sec-pacotes {
 
     text-align: center;
@@ -336,7 +344,7 @@
 }
 
 
-
+/* SECÇÃO PERGUNTAS FREQUENTEMENTE QUESTIONADAS */
 .faq-section {
   position: relative;
   width: 100%;
@@ -438,7 +446,7 @@
 
 
 
-
+/* PARA SECÇÃO DE CONTACTOS MOBILE NÃO APARECER NA HOME DO DESKTOP */
 .sec-contactos-inicial {
     display: none;
 }
@@ -447,7 +455,7 @@
 
 
 
-
+/* SECÇÃO FINAL BANNER E FOOTER */
 .sec-final {
     background-color: #ffffff;
     width: 100%;
@@ -581,7 +589,7 @@
 
 
 
-
+/* PÁGINA SOBRE A FOTÓGRAFA */
 .sobre-sec {
   background-color: #f7f7f7;
 
@@ -667,18 +675,19 @@
 
 
 
-
+/* PÁGINA DOS PACOTE E PREÇOS */
 .sec-precos {
     background: #f7f7f7;
     padding: 50px 0;
     text-align: center;
     margin-top: 70px;
-      padding-bottom: 200px;
+      padding-bottom: 150px;
 }
 
 .titulo-sec {
     font-family: 'Playfair Display', serif;
    font-size: 30px;
+   margin-top: 30px;
     margin-bottom: 50px;
 }
 
@@ -768,7 +777,7 @@
 
 
 
-
+/* PÁGINA DE FORMULÁRIO DE CONTACTO */
 .sec-formulario {
     background: #f7f7f7;
     margin-top: 0px;
@@ -914,7 +923,7 @@ padding-top: 60px;
 
 
 
-
+/* PÁGINA DO BLOG */
 .blog-section {
       margin-top: 71px;
     background: #f7f7f7;
@@ -948,7 +957,7 @@ padding-top: 60px;
 
 
 
-
+/* PÁGINA DO POST 1 DO BLOG */
 .blog-post {
     display: flex;
     background: #ffffff;
@@ -1045,7 +1054,7 @@ font-size: 20px;
 
 
 
-
+/* BOTÃO ED VOLTAR PARA TRÁS NOS POSTS DO BLOG */
 .btn-voltar {
    margin-top: 60px;
     width: 50px;
@@ -1128,6 +1137,7 @@ font-size: 20px;
 
 
 
+/* PÁGINA DO POST 2 DO BLOG */
 .post-section2 {
      background: #f7f7f7;
     padding: 60px 0;
@@ -1187,7 +1197,7 @@ font-size: 20px;
 
 
 
-
+/* PÁGINA DO POST 3 DO BLOG */
 .post-section3 {   
      background: #f7f7f7;
     padding: 60px 0;
@@ -1243,7 +1253,7 @@ font-size: 20px;
 
 
 
-
+/* PÁGINA DO PORTOFÓLIO QUE SÓ FIZ NO FIM MAS ESTÁ ANTES DESTAS */
 .portfolio {
    margin-top: 71px;
     text-align: center;
@@ -1285,7 +1295,7 @@ font-size: 20px;
 
 
 
-
+/* BOTÃO DE IR PARA O TOPO */
 .btn-topo {
   position: fixed;
   bottom: 20px;
