@@ -672,12 +672,12 @@
     background: #f7f7f7;
     padding: 50px 0;
     text-align: center;
-    height: 90vh;
-      
+    margin-top: 70px;
+      padding-bottom: 200px ;
 }
 
 .titulo-sec {
-    margin-top: 100px;
+    
     font-family: 'Playfair Display', serif;
    font-size: 30px;
     margin-bottom: 50px;
